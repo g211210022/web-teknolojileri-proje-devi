@@ -1,8 +1,19 @@
 body{
-	background-color: #fcf
+	background-color: #d9d9d9
 }
 
 header{
 	color:#4d004d ;
+	text-align: center ;
 	font-family: "Sofia", sans-serif;
+}
+
+h2{
+	color: #330066 ;
+	text-align: center ; 
+	font-style: italic ; 
+	font-weight: 700 ;
+}
+table.hakkımda{
+	text-align: center;
 }
