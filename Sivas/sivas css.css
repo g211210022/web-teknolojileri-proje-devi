@@ -1,0 +1,21 @@
+body{
+	background-color: #b3e6ff ;
+	font-family: 'Libre Baskerville', serif;
+	
+	
+}
+
+p.başlık{
+	font-size: 30px ;
+	font-weight: 200 ;
+	font-family: 'Libre Baskerville', serif;
+	color: #000033 ;
+	
+	
+	
+}
+iframe{
+	position: absolute ;
+	margin-left: 950px ;
+
+}
