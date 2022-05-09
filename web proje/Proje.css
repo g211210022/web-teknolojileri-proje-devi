@@ -4,12 +4,6 @@ body{
 
 header{
 	color:#4d004d ;
-	text-body{
-	background-color: #d9d9d9
-}
-
-header{
-	color:#4d004d ;
 	text-align: center ;
 	font-family: "Sofia", sans-serif;
 	font-size: 34px ;
@@ -29,74 +23,6 @@ table.hakkımda{
 	border-spacing: 5px;
 	font-size: 19px ;
 }
-
-
-
-
-
-
-
-#clockContainer {
-	align-item: right ;
-    position: relative;
-    margin: auto;
-    height: 40vw;
-    /*to make the height and width responsive*/
-    width: 40vw;
-    background: url(clock.png) no-repeat;
-    /*setting our background image*/
-    background-size: 10px
-}
-  
-#hour,
-#minute,
-#second {
-    position: absolute;
-    background: black;
-    border-radius: 10px;
-    transform-origin: bottom;
-}
-  
-#hour {
-    width: 1.8%;
-    height: 25%;
-    top: 25%;
-    left: 48.85%;
-    opacity: 0.8;
-}
-  
-#minute {
-    width: 1.6%;
-    height: 30%;
-    top: 19%;
-    left: 48.9%;
-    opacity: 0.8;
-}
-  
-#second {
-    width: 1%;
-    height: 40%;
-    top: 9%;
-    left: 49.25%;
-    opacity: 0.8;
-}: center ;
-	font-family: "Sofia", sans-serif;
-}
-
-h2{
-	color: #330066 ;
-	text-align: center ; 
-	font-style: italic ; 
-	font-weight: 700 ;
-}
-table.hakkımda{
-	text-align: center;
-	text-spacing: 4px;
-	float:center;
-	border-spacing: 5px;
-}
-
-
 
 
 
