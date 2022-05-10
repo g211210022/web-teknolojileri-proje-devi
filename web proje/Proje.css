@@ -1,5 +1,6 @@
 body{
 	background-color: #d9d9d9
+	
 }
 
 header{
@@ -7,6 +8,7 @@ header{
 	text-align: center ;
 	font-family: "Sofia", sans-serif;
 	font-size: 34px ;
+	margin-top: 40px;
 }
 
 p.başlık {
@@ -24,53 +26,11 @@ table.hakkımda{
 	font-size: 19px ;
 }
 
-
-
-
-
-
-
-#clockContainer {
-	align-item: right ;
-    position: relative;
-    margin: auto;
-    height: 40vw;
-    /*to make the height and width responsive*/
-    width: 40vw;
-    background: url(clock.png) no-repeat;
-    /*setting our background image*/
-    background-size: 10px
+#canvas 
+{
+	display: inline-block ;
+    background-color:#d9d9d9;
+	margin-left: 1200px ;
+	margin-top: 40px ;
 }
-  
-#hour,
-#minute,
-#second {
-    position: absolute;
-    background: black;
-    border-radius: 10px;
-    transform-origin: bottom;
-}
-  
-#hour {
-    width: 1.8%;
-    height: 25%;
-    top: 25%;
-    left: 48.85%;
-    opacity: 0.8;
-}
-  
-#minute {
-    width: 1.6%;
-    height: 30%;
-    top: 19%;
-    left: 48.9%;
-    opacity: 0.8;
-}
-  
-#second {
-    width: 1%;
-    height: 40%;
-    top: 9%;
-    left: 49.25%;
-    opacity: 0.8;
-}
+
