@@ -118,3 +118,5 @@ function showHours()
     ctx.strokeStyle = '#000'; 
     ctx.stroke();
 }
+
+// saat sonu 
