@@ -47,8 +47,13 @@ a:visited{
 
 a:hover{
 	color: green ;
-	text-decoration: double underline ;
+	text-decoration: underline ;
 	border-bottom: double ;
+}
+
+.meme1{
+	max-width: 10px
+	max-height: 10px
 }
 
 
