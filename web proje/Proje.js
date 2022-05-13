@@ -14,6 +14,7 @@ setInterval(() => {
 	second.style.transform = `rotate(${sec_rotation}deg)`;
 }, 1000);
 */
+
 var ctx;
 var date;
 var size = 80;
@@ -26,6 +27,7 @@ function start()
     //call the function every second
     setInterval(showTime, 1000);
 }
+
 function showTime()
 {
     //clear the canvas
@@ -39,6 +41,7 @@ function showTime()
     showMinutes();
     showHours();
 }
+
 function drawClock() 
 {
     //draw the frame
@@ -93,6 +96,7 @@ function showSeconds()
     ctx.strokeStyle = '#e10600';       
     ctx.stroke();
 }
+
 function showMinutes() 
 {
     var min = date.getMinutes();
@@ -105,6 +109,7 @@ function showMinutes()
     ctx.strokeStyle = '#000'; 
     ctx.stroke();
 }
+
 function showHours() 
 {
     var hour = date.getHours();
