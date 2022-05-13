@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<a href="first.php">Home</a>
+	<a href="first.php">Giriş</a>
 	<?php include "Proje.php";
 	?>
 </body>
@@ -23,7 +23,9 @@
 <body onload="start()">   <!-- saat animasyonu -->
         <canvas id="canvas" width="250px" height="250px"></canvas>
 </body>
-
+		
+		<!-- sayfadaki bilgiler vs -->
+		
 <body>
 	<header><h1>Nefise Türkoğlu</h1></header>
 	<p class="başlık"> HAKKIMDA </p>
@@ -60,10 +62,12 @@
 	</br></br></br></br>
 	
 	<ul class="cv1"> <p> Bildiğim Programlama Dilleri : </p>
+		<div class=ProgressBarHtml >
 		<li> <a href="https://www.sololearn.com/Certificate/1014-23770000/jpg"> HTML </a></br>
-			<progress value=10 max=10 > 
+			<progress value=10 max=10 color=pink > 
 			</progress>
 		</li>
+		</div>
 		
 		<li> CSS </br>
 			<progress value=78 max=100 > 
@@ -79,10 +83,22 @@
 			<progress value=87 max=100 >
 			</progress>
 		</li>
+		
+		<li> JavaScript </br>
+			<progress value=54 max=100>
+			</progress>
+		</li>
+		
+		<li> Python </br>
+			<progress value=10 max=10 >
+			</progress>
+		</li>
+		
+		
 	</ul>
 	
 	<div class="meme1">
-		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fcleus.co%2Fwp-content%2Fuploads%2F2019%2F03%2Fmemecoders.jpg%3Fresize%3D1058%252C959%26ssl%3D1&f=1&nofb=1"> 
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fcleus.co%2Fwp-content%2Fuploads%2F2019%2F03%2Fmemecoders.jpg%3Fresize%3D1058%252C959%26ssl%3D1&f=1&nofb=1" width="400" height="400" > 
 	</div>
 		
 	
@@ -100,7 +116,32 @@
 	
 </body>
 
+<!-- iletişim formu -->
 
+<footer>
+	<div class="form1">
+		<body>
+
+			<h3>İletişim Formu</h3>
+
+			<div class="container">
+			  <form action="/action_page.php">
+				<label for="fname">İsim</label>
+				<input type="text" id="fname" name="firstname" placeholder="Adınız..">
+
+				<label for="lname">Soyad</label>
+				<input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+
+				<label for="konu">Konu</label>
+				<textarea id="subject" name="subject" placeholder="Yazmak istediğiniz .." style="height:200px"></textarea>
+
+				<input type="submit" value="Gönder">
+			  </form>
+			</div>
+
+		</body>
+	</div>
+</footer>
 
 
 
