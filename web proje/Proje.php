@@ -19,7 +19,9 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
-    ) {
+    ) 
+    
+    {
         problem('Doldurduğunuz formda birkaç hata var galiba.');
     }
 
